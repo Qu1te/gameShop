@@ -1,0 +1,417 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Poppins-Bold;
+	src: url(../font/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Medium;
+	src: url(../font/Poppins-Medium.ttf);
+}
+
+@font-face {
+	font-family: Poppins-SemiBold;
+	src: url(../font/Poppins-SemiBold.ttf);
+}
+
+.headerMainContent{
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: transparent;
+	margin-top: 30px;
+}
+
+.headerContent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background-color: #0071F8;
+	height: 80px;
+}
+
+.headerMainConteiner{
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+header.scrolled {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #0071F8;
+	margin: 0;
+	padding: 15px 0 ;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0 0 10px 2px rgb(0, 0, 0,0.2);
+	z-index: 4;
+ }
+
+.logo h1{
+	font-family: Poppins-Bold;
+	font-size: 32px;
+}
+
+
+.nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.nav li{
+	margin-left: 30px;
+	list-style: none;
+	font-family: Poppins-Medium;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 5px 22px ;
+}
+
+.nav li:hover{
+	border-radius: 25px;
+	background-color: #3D8BFF;
+}
+
+
+#HomeBtn{
+	border-radius: 25px;
+	background-color: #3D8BFF;
+	padding: 5px 22px ;
+}
+
+#SignIn{
+	border-radius: 25px;
+	background-color: #EE626B;
+	padding: 5px 22px ;
+}
+
+#SignIn:hover{
+	background-color: #dd525b;
+}
+
+.top{
+	width: 100%;
+	background-image: url(../img/mainheaderback.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-left-radius:146px;
+	border-bottom-right-radius:146px;
+}
+
+.topConteiner{
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	margin-top: 200px;
+	margin-bottom: 110px;
+}
+
+.WelcomText h1 {
+	font-family: Poppins-Bold;
+	font-size: 50px;
+}
+
+.WelcomText p{
+	font-family: Poppins-Regular;
+	font-size: 20px;
+}
+
+.search{
+	margin-top: 60px;
+}
+
+.search input{
+	padding: 18px 50px 17px 25px;
+	border-radius: 25px;
+	border: none;
+	font-family: Poppins-Medium; 
+	font-size: 15px;
+	color: rgb(0, 0, 0, 0.4);
+	width: 60%;
+}
+.search input:focus{
+	outline: none;
+}
+
+.search button{
+	padding: 20px 50px;
+	border-radius: 25px;
+	background-color: #EE626B;
+	border: none;
+	-webkit-transform: translateX(-35%);
+	transform: translateX(-35%);
+}
+
+
+.advantages{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.advantagesContent{
+	display: flex;
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	
+}
+
+.box{
+	width: 25%;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0px 0 10px 4px  rgb(0, 0, 0,0.3);
+	background-color: white;
+	-webkit-transform: translateY(-50%);
+	transform:translateY(-50%);
+	border-radius: 25px;	
+}
+
+.TopCategories{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.TopCategories h1{
+	font-family: Poppins-Bold;
+	font-size: 32px;
+}
+
+.topGame{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	flex-direction: column;
+	margin-top: 54px;
+}
+
+.topGame h1{
+	font-family: Poppins-Bold;
+	font-size: 32px;
+}
+
+.MoreBtn{
+	padding: 10px 122px;
+	color: white;
+	background-color: #0071F8;
+	border: none;
+	border-radius: 25px;
+}
+
+.Footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	background:linear-gradient(#0071F8,#3D8BFF);
+	margin-top: 54px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+.FooterContent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: Poppins-SemiBold;
+	font-size: 20px;
+	padding:40px  250px  113px 250px;
+	width: 70%;
+}
+
+
+
+
+.menuBtn{
+cursor: pointer;
+display: block;
+}
+
+.menuIcon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 30px;
+	height: 4px;
+	margin-top: 6px;
+	background-color: white;
+}
+
+.menu-items{
+	width: 200px;
+	border-radius: 25px;
+	background-color: white;
+	box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px 0;
+}
+
+.menuConteiner{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: right;
+	flex-direction: column;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	z-index: 2;
+}
+
+.menu-items a{
+	color: rgb(0, 0, 0,0.3);
+	text-decoration: none;
+	font-family: Poppins-SemiBold;
+	font-size: 15px;
+	margin-top: 5px;
+	
+}
+
+.menu-items a:hover{
+	color: black;
+}
+
+
+
+
+@media (min-width:1130px) {
+	.menuBtn{
+		display: none;
+	}
+}
+
+
+@media (max-width:1400px){
+	.headerMainConteiner{
+		width: 80%;
+	}
+	.topConteiner{
+		width: 80%;
+	}
+
+	.advantagesContent{
+		width: 80%;
+	}
+	.FooterContent{
+		text-align: center;
+	}
+	
+}
+
+@media (max-width:1130px){
+	
+	.nav {
+		display: none;
+	}
+}
+
+@media (max-width:1030px){
+	.topConteiner{
+		width: 95%;
+	}
+
+	.advantagesContent{
+		width: 95%;
+	}
+}
+
+@media (max-width:872px){
+	.topConteiner{
+		display:block;
+		text-align: center;
+		margin-top: 100px;
+		width: 100%;
+	}
+
+	.search{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.sellImg{
+		margin-top: 30px;
+	}
+
+	.advantagesContent{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.sellImg img{
+		width: 50%;
+	}
+
+	.box{
+		width: 60%;
+		height: 200px;
+	}
+
+	.FooterContent{
+		width: 100%;
+		padding: 40px  100px  70px 100px;
+	}
+
+}
+
+@media (max-width:530px){
+	.WelcomText h1{
+		font-size: 32px;
+	}
+
+	.WelcomText p{
+		font-size: 15px;
+	}
+
+	.search{
+		margin-top: 15px;
+	}
+}
+
+@media (max-width:380px){
+
+}

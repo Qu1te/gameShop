@@ -1,0 +1,145 @@
+@font-face {
+	font-family: Poppins-Bold;
+	src: url(../font/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: Poppins-SemiBold;
+	src: url(../font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url(../font/Poppins-Regular.ttf);
+}
+
+.Login{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-image: url(../img/banner-bg\ 1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.LoginConteiner{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgba(31, 145, 252, 0.3);
+	border: 3px solid #4C95ED;
+	border-radius: 25px;
+}
+
+.SignInText{
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	color: white;
+	font-family: Poppins-Bold;
+	font-size: 32px;
+	width: 70%;
+	margin-top: 82px;
+	margin-bottom: 25px;
+}
+
+.LoginConteiner form{
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	width: 70%;
+
+}
+
+.LoginConteiner form input{
+	padding: 16px 24px;
+	font-size: 15px;
+	font-family: Poppins-SemiBold;
+	border-radius: 25px;
+	border: none;
+	margin-bottom: 32px;
+	width: 100%;
+}
+
+.LoginBtn{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 70%;
+	margin-bottom: 132px;
+}
+
+.LoginBtn a{
+	color: white;
+	text-decoration: none;
+	font-family: Poppins-Regular;
+	font-size: 15px;
+}
+
+#SigninBtn{
+	font-family: Poppins-SemiBold;
+	font-size: 20px;
+	background-color: #EE626B;
+	border-radius: 25px;
+	padding: 12px 0;
+	width: 40%;
+	text-align: center;
+}
+
+@media (max-width:1500px) {
+	.LoginConteiner{
+		width: 40%;
+	}
+}
+
+@media (max-width:1150px) {
+	.LoginConteiner{
+		width: 50%;
+	}
+	.SignInText{
+		font-size: 26px;
+	}
+}
+
+@media (max-width:885px) {
+	.LoginConteiner{
+		width: 80%;
+	}
+	.SignInText{
+		font-size: 26px;
+		width: 90%;
+	}
+
+	.LoginBtn{
+		width: 90%;
+	}
+
+.LoginConteiner form{
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	width: 90%;
+}
+
+
+}
+
+@media (max-width:500px) {
+	.LoginConteiner{
+		width: 95%;
+	}
+	.SignInText{
+		font-size: 20px;
+	}
+
+	#SigninBtn{
+		width: 60%;
+	}
+	
+}

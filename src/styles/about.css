@@ -1,0 +1,89 @@
+@font-face {
+	font-family: Poppins-Bold;
+	src: url(../font/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Regular;
+	src: url(../font/Poppins-Regular.ttf);
+}
+
+@font-face {
+	font-family: Poppins-Medium;
+	src: url(../font/Poppins-Medium.ttf);
+}
+
+@font-face {
+	font-family: Poppins-SemiBold;
+	src: url(../font/Poppins-SemiBold.ttf);
+}
+
+
+.AboutContent{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.AboutConteiner{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	flex-direction: column;
+}
+
+.aboutTitle{
+	font-family: Poppins-SemiBold;
+	font-size: 32px;
+}
+
+.AboutConteinerBox{
+	background-color: #0071F8;
+	color: white;
+	border-radius: 25px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 20px 28px 70px 28px;
+	margin-top: 21px;
+}
+
+.AboutConteinerBox div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: Poppins-SemiBold;
+	font-size: 15px;
+}
+
+#ptext{
+	font-family: Poppins-SemiBold;
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.AboutConteinerWhiteBox{
+	background-color: #F7F7F7;
+	border-radius: 25px;
+	display: flex;
+	align-items: start;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	padding: 20px 28px 70px 28px;
+	margin-top: 21px;
+}
+
+.AboutConteinerWhiteBox div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	font-family: Poppins-SemiBold;
+	font-size: 15px;
+}
